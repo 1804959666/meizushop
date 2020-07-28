@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>我的订单</title>
+		<link rel="stylesheet" type="text/css" href="css/myorder.css" />
+		<link rel="stylesheet" type="text/css" href="css/reset.css" />
+		<script type="text/javascript" src="js/jquery-3.5.1.min.js" charset="UTF-8"></script>
+		<script type="text/javascript" src="js/myorder.js" charset="UTF-8"></script>
+	</head>
+	<body>
+		<div class="header-all"></div>
+		<div class="store-order">
+			<div class="container">
+
+				<div class="store-head">
+					<a href="index.html" class="home">首页>&nbsp;</a>
+					<a href="index.html" class="small">我的商城>&nbsp;</a>
+					<a href="myorder.html" style="color: #00C3F5;">我的订单</a>
+				</div>
+				<div class="main clearfix">
+					<div class="left fl">
+						<div class="left-main">
+							<div class="title clearfix">
+								<div class="pic fl">
+									<img src="img/myorder/icon1.png" >
+								</div>
+								<div class="word fl">订单中心</div>
+							</div>
+							<div class="menu">
+								<a href="javascript:void(0)" id="myorder">我的订单</a>
+								<a href="myorder.html">我的回购单</a>
+							</div>
+							<div class="title clearfix">
+								<div class="pic fl">
+									<img src="img/myorder/icon2.png" >
+								</div>
+								<div class="word fl">个人中心</div>
+							</div>
+							<div class="menu">
+								<a href="zhifu.html">地址管理</a>
+								<a href="javascript:void(0)" class="shoucang">我的收藏</a>
+								<a href="myorder.html">消息提醒</a>
+								<a href="myorder.html">建议反馈</a>
+							</div>
+							<div class="title clearfix">
+								<div class="pic fl">
+									<img src="img/myorder/icon3.png" >
+								</div>
+								<div class="word fl">资产中心</div>
+							</div>
+							<div class="menu">
+								<a href="myorder.html">我的优惠券</a>
+								<a href="myorder.html">我的红包</a>
+								<a href="myorder.html">我的回购金</a>
+							</div>
+							<div class="title clearfix">
+								<div class="pic fl">
+									<img src="img/myorder/icon4.png" >
+								</div>
+								<div class="word fl">服务中心</div>
+							</div>
+							<div class="menu">
+								<a href="myorder.html">退款/退换货跟踪</a>
+								<a href="myorder.html">以旧换新</a>
+							</div>
+						</div>
+					</div>
+					<div class="right fr">
+						<div class="right-main">
+							<div class="order-btn">
+								<a href="javascript:void(0)" class="all">全部订单</a><span>|</span>
+								<a href="javascript:void(0)" class="pay">待付款 </a><span>|</span>
+								<a href="javascript:void(0)">待发货</a><span>|</span>
+								<a href="javascript:void(0)">已发货</a><span>|</span>
+								<a href="javascript:void(0)">其他</a>
+							</div>
+							<ul class="order-menu clearfix">
+								<li>
+									<select class="check-type" id="checkType">
+										<option value="0">近三个月的订单</option>
+										<option value="1">全部订单</option>
+									</select>
+									订单明细
+								</li>
+								<li>售后</li>
+								<li>金额</li>
+								<li>状态</li>
+								<li>销售</li>
+							</ul>
+							<!-- 无下单 -->
+							<div class="order-detail">
+								<div class="title">您暂无此类订单，赶快去下单吧</div>
+							</div>
+							<!-- 下单 -->
+							<table class="order-message" cellpadding="0" cellspacing="0">
+								<tr class="tr1">
+									<td colspan="4" class="tr1-1 clearfix">
+										<div class="time"></div>
+										<div class="num"></div>
+										<div><img src="img/myorder/kefu.png" >
+										<a href="javascript:void(0)" style="color: #00C3F5;cursor: pointer;">联系客服</a>
+										</div>
+									</td>
+								</tr>
+								<tr class="tr2">
+									<td class="tr2-1 clearfix">
+										<div class="pic fl">
+											<img src="img/myorder/shopping.png" id="tupian">
+										</div>
+										<div class="text fl">
+											<p class="ming">魅族EP52 Lite 蓝牙耳机</p>
+											<p class="yanse">月白</p>
+										</div>
+									</td>
+									<td class="tr2-2">
+										￥<span id="zongjia">129</span>
+										<span>花呗分期</span>
+									</td>
+									<td class="tr2-3">待付款</td>
+									<td class="tr2-4">
+										<span><a href="fukuan.html">立即付款</a></span>
+										<a class="cancel" style="cursor: pointer;">取消订单</a><br>
+										<a href="details.html">查看详情</a>
+									</td>
+								</tr>
+							</table>
+						</div>
+					</div>
+					<!-- 我的收藏 -->
+					<div class="collect fl">
+						<div class="title">
+							<a href="javascript:void(0)">已收藏商品</a>
+						</div>
+						<div class="order-detail">
+							<div class="title">您暂无收藏的商品</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer-all"></div>
+	</body>
+</html>
+

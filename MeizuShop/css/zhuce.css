@@ -1,0 +1,203 @@
+@charset "utf-8";
+
+.floor1 {
+	height: 200px;
+	width: 100%;
+	background-color: #ffffff;
+}
+
+.floor1 img {
+	padding-top: 15px;
+}
+
+.floor2 {
+	height: 650px;
+	background: url(../img/denglu/pic-flyme.png) no-repeat center center;
+}
+
+.floor2 .zhuce {
+	height: 550px;
+	width: 380px;
+	background-color: #F3FEFE;
+	border: 2px solid white;
+	float: right;
+}
+
+.floor2 .zhuce>.a1 {
+	height: 50px;
+	width: 380px;
+	display: block;
+	color: blue;
+	font-size: 20px;
+	text-align: center;
+	position: relative;
+	top: 80px;
+}
+
+.floor2 .zhuce>.phone {
+	height: 50px;
+	width: 280px;
+	display: block;
+	font-size: 14px;
+	text-align: center;
+	position: relative;
+	top: 140px;
+	left: 40px;
+
+}
+
+#zhanghao {
+	width: 320px;
+	height: 50px;
+	padding-left: 10px;
+}
+
+.floor2 .zhuce>.bot {
+	height: 50px;
+	width: 280px;
+	display: block;
+	font-size: 14px;
+	text-align: center;
+	position: relative;
+	top: 180px;
+	left: 40px;
+}
+
+#mima{
+	width: 320px;
+	height: 50px;
+	padding-left: 10px;
+}
+.floor2 .zhuce>.denglu {
+	display: block;
+	font-size: 16px;
+	position: relative;
+	top: 260px;
+	left: 30px;
+}
+
+.floor2 .zhuce>.denglu span {
+	color: #0000FF;
+}
+
+.floor2 .zhuce>.foot {
+	height: 50px;
+	width: 380px;
+	display: block;
+	font-size: 14px;
+	color: white;
+	cursor: pointer;
+	/* text-align: center; */
+	position: relative;
+	top: 250px;
+	left: 40px;
+}
+
+.floor2 .zhuce>.p1 {
+	font-size: 13px;
+	opacity: 0.7;
+	text-align: center;
+	position: relative;
+	top: 220px;
+	left: 45px;
+}
+
+.floor2 .zhuce>.p2 {
+	font-size: 13px;
+	opacity: 0.7;
+}
+
+.floor2 .zhuce>.p3 {
+	font-size: 13px;
+	opacity: 0.7;
+}
+
+.floor2 .zhuce>.bot .btn1 {
+	height: 50px;
+	width: 324px;
+}
+
+.footer {
+	margin-top: 150px;
+	height: 150px;
+	width: 100%;
+	background-color: #FFFFFF;
+}
+
+.footer .top {
+	height: 60px;
+	margin-top: 30px;
+}
+
+.footer .top>.p1 {
+	font-size: 15px;
+	cursor: pointer;
+}
+
+.footer .top>.p2 {
+	font-size: 15px;
+	margin-left: 50px;
+	cursor: pointer;
+}
+
+.footer .top>.p3 {
+	font-size: 15px;
+	margin-left: 20px;
+}
+
+.footer .top>.p4 {
+	cursor: pointer;
+	height: 20px;
+	width: 60px;
+	background-color: #32A5E7;
+	color: white;
+	font-size: 15px;
+	margin-left: 30px;
+}
+
+.footer .top>.p5 {
+	cursor: pointer;
+	height: 30px;
+	width: 30px;
+	margin-left: 200px;
+	position: relative;
+	top: 10px;
+}
+
+.footer .top>.p6 {
+	cursor: pointer;
+	height: 30px;
+	width: 30px;
+	margin-left: 10px;
+	position: relative;
+	top: 10px;
+}
+
+.footer .top>.p7 {
+	cursor: pointer;
+	height: 30px;
+	width: 30px;
+	margin-left: 10px;
+	position: relative;
+	top: 10px;
+}
+
+.footer .bottom {
+	height: 30px;
+}
+
+.footer .bottom span {
+	font-size: 13px;
+	opacity: 0.5;
+}
+.foot .submit{
+	background-color: #387aff;
+	color: white;
+	border-radius: 4px;
+	outline: none;
+	cursor: pointer;
+	border: 1px solid #387aff;
+}
+.foot .submit:hover{
+	background-color: #3058DF;
+}

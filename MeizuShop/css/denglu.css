@@ -1,0 +1,274 @@
+@charset "utf-8";
+
+.head {
+	height: 200px;
+	width: 100%;
+	background-color: #ffffff;
+}
+
+.head img {
+	padding-top: 15px;
+}
+
+.conter {
+	height: 550px;
+	background: url(../img/denglu/pic-flyme.png) no-repeat center center;
+}
+
+.conter .denglu {
+	height: 450px;
+	width: 380px;
+	background-color: #F3FEFE;
+	border: 2px solid white;
+	float: right;
+}
+
+.conter .denglu>.menu {
+	margin-top: 50px;
+	width: 358px;
+	height: 50px;
+}
+
+.conter .denglu>.menu .a {
+	margin-left: 50px;
+	font-weight: bold;
+}
+
+.conter .denglu>.menu a {
+	width: 176px;
+	height: 50px;
+	margin-left: 50px;
+	line-height: 50px;
+	font-size: 20px;
+}
+
+.conter .denglu>.menu a:hover {
+	color: black;
+}
+
+.conter .denglu>.one {
+	height: 350px;
+	width: 380px;
+	background-color: #F3FEFE;
+}
+
+.conter .denglu>.one .picutre {
+	height: 34px;
+	width: 35px;
+	position: relative;
+	left: 345px;
+	bottom: 100px;
+}
+
+.conter .denglu>.one .phone {
+	height: 50px;
+	width: 350px;
+	position: relative;
+	bottom: 15px;
+	font-size: 16px;
+	margin-left: 50px;
+}
+
+#zhanghao {
+	height: 50px;
+	width: 370px;
+	padding-left: 5px;
+}
+
+#mima {
+	height: 50px;
+	width: 370px;
+	padding-left: 5px;
+}
+
+.conter .denglu>.one .mima {
+	height: 50px;
+	width: 380px;
+	position: relative;
+	margin-left: 50px;
+	font-size: 16px;
+}
+
+.conter .denglu>.one .anniu {
+	height: 50px;
+	width: 380px;
+	position: relative;
+	margin-left: 50px;
+	top: 15px;
+	font-size: 16px;
+}
+
+.conter .denglu>.one .chek {
+	font-size: 14px;
+	position: relative;
+	left: 50px;
+	top: 25px;
+}
+
+.conter .denglu>.one .chek .chekbox {
+	width: 18px;
+	height: 18px;
+}
+
+.conter .denglu>.one .chek .wenzi {
+	position: relative;
+	bottom: 5px;
+	color: black;
+}
+
+.conter .denglu>.one .denglu1 {
+	height: 50px;
+	width: 380px;
+	font-size: 16px;
+	position: relative;
+	margin-left: 50px;
+	top: 45px;
+}
+
+.conter .denglu>.one .denglu1 .color {
+	cursor: pointer;
+}
+
+.conter .denglu>.one .foot {
+	position: relative;
+	top: 50px;
+	left: 52px;
+}
+
+.conter .denglu>.one .foot .wenzi1 {
+	display: block;
+	font-size: 16px;
+	color: #0000FF;
+}
+
+.conter .denglu>.one .foot .wenzi2 {
+	position: relative;
+	bottom: 20px;
+	left: 220px;
+	font-size: 16px;
+	color: #0000FF;
+	cursor: pointer;
+}
+
+.conter .denglu>.two {
+	display: none;
+	height: 400px;
+	width: 380px;
+	background-color: #F3FEFE;
+}
+
+.conter .denglu>.two .picutre1 {
+	height: 34px;
+	width: 35px;
+	position: relative;
+	left: 345px;
+	bottom: 100px;
+}
+
+.conter .denglu>.two .picutre2 {
+	height: 300px;
+	width: 300px;
+	position: relative;
+	left: 45px;
+	bottom: 20px;
+}
+
+.conter .denglu>.two .foot1 {
+	position: relative;
+	left: 60px;
+}
+
+.conter .denglu>.two .h1 {
+	font-size: 16px;
+	opacity: 0.7;
+}
+
+/* 尾部 */
+.footer {
+	margin-top: 150px;
+	height: 150px;
+	width: 100%;
+	background-color: #FFFFFF;
+}
+
+.footer .top {
+	height: 60px;
+	margin-top: 30px;
+}
+
+.footer .top>.p1 {
+	font-size: 15px;
+	cursor: pointer;
+}
+
+.footer .top>.p2 {
+	font-size: 15px;
+	margin-left: 50px;
+	cursor: pointer;
+}
+
+.footer .top>.p3 {
+	font-size: 15px;
+	margin-left: 20px;
+}
+
+.footer .top>.p4 {
+	cursor: pointer;
+	height: 20px;
+	width: 60px;
+	background-color: #32A5E7;
+	color: white;
+	font-size: 15px;
+	margin-left: 30px;
+}
+
+.footer .top>.p5 {
+	cursor: pointer;
+	height: 30px;
+	width: 30px;
+	margin-left: 200px;
+	position: relative;
+	top: 10px;
+}
+
+.footer .top>.p6 {
+	cursor: pointer;
+	height: 30px;
+	width: 30px;
+	margin-left: 10px;
+	position: relative;
+	top: 10px;
+}
+
+.footer .top>.p7 {
+	cursor: pointer;
+	height: 30px;
+	width: 30px;
+	margin-left: 10px;
+	position: relative;
+	top: 10px;
+}
+
+.footer .bottom {
+	height: 30px;
+}
+
+.footer .bottom span {
+	font-size: 13px;
+	opacity: 0.5;
+}
+
+.denglu1 button {
+	background-color: #387aff;
+	color: white;
+	border-radius: 4px;
+	outline: none;
+	cursor: pointer;
+	border: 1px solid #387aff;
+}
+.denglu1 button:hover{
+	background-color: #3058DF;
+}
+#submit{
+	cursor: pointer;
+}

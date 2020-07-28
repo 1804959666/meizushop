@@ -1,0 +1,100 @@
+@charset "utf-8";
+
+.banner{
+	background-color: #F7F7F7;
+}
+.body{
+	height: 450px;
+	box-sizing: border-box;
+}
+.body>.container{
+	border-bottom: 2px #E4E4E4 solid;
+	height: 450px;
+}
+.body-title{
+	height: 138px;
+	padding-top: 100px;
+	border-bottom: 2px #E4E4E4 solid;
+	box-sizing: border-box;
+}
+.body-title em{
+	position: relative;
+	top: -15px;
+	right: 3px;
+	height: 20px;
+	background: #008CFF;
+	color: #fff;
+	line-height: 20px;
+	text-align: center;
+	display: inline-block;
+	padding: 2px 15px;
+	text-indent: 0;
+	font-style:normal;
+	font-size: 22px;
+}
+.body-title div{
+	float: left;
+	font-size: 25px;
+	color: #666B70;
+	margin-right: 30px;
+}
+.body-title div:hover{
+	color: #00C3F5;
+	cursor: pointer;
+}
+.body-select {
+	padding-top: 30px;
+	font-size: 16px;
+	color: black;
+	box-sizing: border-box;
+}
+.body-select select{
+	box-sizing: border-box;
+	padding: 5px 5px;
+	width: 130px;
+}
+.body-content{
+	box-sizing: border-box;
+	padding-top: 80px;
+	width: 350px;
+}
+.body-content ul li{
+	display: block;
+	padding: 5px;
+	font-size: 16px;
+	color: #000000;
+}
+.body-content ul li:first-child{
+	padding: 5px;
+	font-size: 20px;
+	color: #00C3F5;
+}
+
+.join-content{
+	padding-top: 50px;
+	height: 130px;
+	border-bottom: 1px #E4E4E4 solid;
+}
+.join-content button{
+	float: right;
+	color: #00C3F5;
+	padding: 10px 25px;
+	border: 1px #00C3F5 solid;
+	background-color: #FFFFFF;
+	font-size: 16px;
+	margin-top: -7px;
+}
+.join-content button:hover{
+	cursor: pointer;
+}
+.join-content button:nth-child(2){
+	margin-right: 10px;
+}
+.join-content span{
+	float: right;
+	color: #000000;
+	font-size: 20px;
+	margin-right: 40px;
+}
+
+

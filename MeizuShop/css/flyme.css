@@ -1,0 +1,511 @@
+@charset "utf-8";
+
+.floor1 {
+	height: 680px;
+	width: 100%;
+}
+
+.floor1 .nav {
+	height: 100px;
+	width: 100%;
+
+}
+
+.floor1 .nav>.logo {
+	height: 100px;
+	width: 620px;
+	float: left;
+	position: relative;
+	top: 30px;
+}
+
+.floor1 .nav>.daohang {
+	height: 100px;
+	width: 620px;
+	float: left;
+}
+
+.floor1 .nav>.daohang ul li {
+	float: left;
+	position: relative;
+}
+
+.floor1 .nav>.daohang ul li a {
+	display: block;
+	color: #6FBEFF;
+	text-align: center;
+	height: 100px;
+	line-height: 100px;
+	font-size: 16px;
+	padding-left: 48px;
+}
+
+.xinde {
+	position: fixed;
+	background-color: #fff;
+	z-index: 20;
+	display: none;
+}
+
+.swiper-container {
+	width: 100%;
+	height: 580px;
+	cursor: pointer;
+}
+
+.swiper-container .slider1 {
+	height: 100%;
+	background: url(../img/Flyme/10.jpg) no-repeat center top;
+	background-size: cover;
+}
+
+.swiper-container .slider2 {
+	height: 100%;
+	background: url(../img/Flyme/12.jpg) no-repeat center top;
+	background-size: cover;
+}
+
+.floor2 {
+	height: 240px;
+	width: 100%;
+	background-color: #FFFFFF;
+}
+
+.floor2 .item {
+	height: 100%;
+	width: calc((1240px - 240px)/5);
+	float: left;
+	margin-right: 60px;
+	text-align: center;
+}
+
+.floor2 .item:last-child {
+	margin-right: 0px;
+}
+
+.floor3 {
+	height: 300px;
+	width: 100%;
+}
+
+.floor3 .left {
+	height: 300px;
+	width: 590px;
+	float: left;
+}
+
+.floor3 .right {
+	height: 300px;
+	width: 600px;
+	float: left;
+	margin-left: 50px;
+}
+
+.floor3 .right>.top {
+	height: 150px;
+	width: 600px;
+}
+
+.floor3 .right>.top .zuo {
+	height: 150px;
+	width: 300px;
+	float: left;
+}
+
+.floor3 .right>.top .you {
+	height: 150px;
+	width: 300px;
+	float: left;
+}
+
+.floor3 .right>.bottom {
+	height: 150px;
+	width: 600px;
+}
+
+.floor3 .right>.bottom .zuo1 {
+	height: 150px;
+	width: 300px;
+	float: left;
+}
+
+.floor3 .right>.bottom .you1 {
+	height: 150px;
+	width: 300px;
+	float: left;
+}
+
+.floor4 {
+	height: 200px;
+	background-color: #FFFFFF;
+	text-align: center;
+}
+
+.floor4 span {
+	font-size: 25px;
+	color: black;
+	position: relative;
+	top: 80px;
+}
+
+.floor5 {
+	height: 610px;
+	width: 100%;
+	background-color: #FFFFFF;
+}
+
+.floor5 .top {
+	height: 270px;
+	width: 1240px;
+}
+
+.floor5 .top>.left {
+	height: 270px;
+	width: 600px;
+	float: left;
+}
+
+.floor5 .top>.right {
+	height: 270px;
+	width: 600px;
+	float: left;
+	margin-left: 40px;
+}
+
+.floor5 .top>.right .inex {
+	text-align: center;
+	border: 1px solid #F4F4F4;
+	height: 268px;
+	width: calc((596px - 28px)/2);
+	float: left;
+	margin-right: 28px;
+}
+
+.floor5 .top>.right .inex:last-child {
+	margin-right: 0px;
+}
+
+.floor5 .top>.right .inex span {
+
+	font-size: 18px;
+	color: black;
+	position: relative;
+	top: 20px;
+}
+
+.floor5 .bottom {
+	margin-top: 40px;
+	height: 300px;
+	width: 1240px;
+}
+
+.floor5 .bottom>.zuo {
+	height: 270px;
+	width: 600px;
+	float: left;
+}
+
+.floor5 .bottom>.zuo .indd {
+	text-align: center;
+	border: 1px solid #f4f4f4;
+	height: 270px;
+	width: calc((596px - 35px)/2);
+	float: left;
+	margin-right: 35px;
+}
+
+.floor5 .bottom>.zuo .indd span {
+	font-size: 18px;
+	color: black;
+	position: relative;
+	top: 20px;
+}
+
+.floor5 .bottom>.zuo .indd:last-child {
+	margin-right: 0px;
+}
+
+.floor5 .bottom>.you {
+	height: 270px;
+	width: 600px;
+	float: left;
+	margin-left: 40px;
+}
+
+.floor5 .bottom>.you .idet {
+	text-align: center;
+	border: 1px solid #f4f4f4;
+	height: 270px;
+	width: calc((596px - 28px)/2);
+	float: left;
+	margin-right: 28px;
+}
+
+.floor5 .bottom>.you .idet span {
+	font-size: 18px;
+	color: black;
+	position: relative;
+	top: 20px;
+}
+
+.floor5 .bottom>.you .idet:last-child {
+	margin-right: 0px;
+}
+
+.floor6 {
+	height: 160px;
+	background-color: #FFFFFF;
+	text-align: center;
+}
+
+.floor6 span {
+	font-size: 25px;
+	color: black;
+	position: relative;
+	top: 60px;
+}
+
+.floor7 {
+	height: 400px;
+	background-color: #FFFFFF;
+}
+
+.floor7 .index {
+	height: 290px;
+	width: calc((1240px - 60px)/4);
+	float: left;
+	margin-right: 20px;
+}
+
+.floor7 .index:last-child {
+	margin-right: 0px;
+}
+
+.floor7 .index>.pict {
+	position: relative;
+	bottom: 220px;
+	left: 95px;
+}
+
+.floor7 .index>.pict1 {
+	position: relative;
+	bottom: 220px;
+	left: 95px;
+}
+
+.floor7 .index>.pict2 {
+	position: relative;
+	bottom: 220px;
+	left: 95px;
+}
+
+.floor7 .index>.pict3 {
+	position: relative;
+	bottom: 220px;
+	left: 95px;
+}
+
+.footer {
+	background-color: white
+}
+.footer-message {
+	padding-top: 30px;
+	width: 1000px;
+	height: 20px;
+}
+
+.footer-message ul {
+	width: 1000px;
+	height: 20px;
+}
+
+.footer-message ul li {
+	float: left;
+	padding-right: 15px;
+	border-right: 1px solid #d6d6d6;
+	height: 18px;
+	margin-right: 15px;
+}
+
+.footer-message ul li:last-child {
+	border-right: none;
+}
+
+.footer-message ul li a {
+	color: #999;
+	display: block;
+	line-height: 18px;
+}
+
+.footer-message ul li a:hover {
+	color: #008cff;
+}
+
+.footer-message ul li:last-child span {
+	margin-right: 5px;
+	display: block;
+	width: 18px;
+	height: 18px;
+	background: url(../img/Flyme/footerXB.png) no-repeat 0 0;
+	background-size: cover;
+	float: left;
+}
+
+.language-select {
+	width: 300px;
+	position: relative;
+	top: -188px;
+	left: -10px;
+	display: none;
+	overflow: hidden;
+	width: 115px;
+	background: #fff;
+	border: 1px solid #f1f1f1;
+	z-index: 999;
+}
+
+.language-select ul {
+	width: 117px;
+	float: none;
+}
+
+.language-select ul li {
+	border: none;
+	float: none;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	padding-right: 0;
+	height: 25px;
+	margin-right: 0;
+}
+
+.language-select ul li:nth-child(2) span {
+	background: url(../img/Flyme/footerXB.png) no-repeat;
+	background-position: 0 -19px;
+	background-size: cover;
+}
+
+.language-select ul li:nth-child(3) span {
+	background: url(../img/Flyme/En.png) no-repeat;
+	background-position: 0 0;
+	background-size: cover;
+}
+
+.language-select ul li:nth-child(4) span {
+	background: url(../img/Flyme/footerXB.png) no-repeat;
+	background-position: 0 -74px;
+	background-size: cover;
+}
+
+.language-select ul li:nth-child(5) span {
+	background: url(../img/Flyme/footerXB.png) no-repeat;
+	background-position: 0 -314px;
+	background-size: cover;
+}
+
+.footer-messager {
+	margin-top: 10px;
+	padding-bottom: 30px;
+}
+
+.footer-messager img {
+	display: inline-block;
+	margin-bottom: -3px;
+}
+
+.footer-messager a {
+	color: #999999;
+}
+
+.footer-messager a:hover {
+	color: #008cff;
+}
+
+.footer-messager .fivea {
+	display: inline-block;
+	width: 16px;
+	height: 18px;
+	background: url(../img/Flyme/footer-min-01.png) no-repeat;
+	margin-bottom: -3px;
+}
+
+.footer-messager .fivea:hover {
+	background: url(../img/Flyme/footer-min-hide-01.png) no-repeat;
+}
+
+.footer-messager .sixa {
+	display: inline-block;
+	width: 16px;
+	height: 18px;
+	background: url(../img/Flyme/footer-min-02.png) no-repeat;
+	margin-bottom: -3px;
+}
+
+.footer-messager .sixa:hover {
+	background: url(../img/Flyme/footer-min-hide-02.png) no-repeat;
+}
+
+.footer-messager .sevena {
+	display: inline-block;
+	width: 16px;
+	height: 18px;
+	background: url(../img/Flyme/footer-min-03.png) no-repeat;
+	margin-bottom: -3px;
+}
+
+.footer-messager .sevena:hover {
+	background: url(../img/Flyme/footer-min-hide-03.png) no-repeat;
+}
+
+.footer-share {
+	float: right;
+}
+
+.footer-share a {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.footer-share a:nth-child(1) {
+	background: url(../img/Flyme/footer-share-min-01.png) no-repeat;
+	background-size: cover;
+}
+
+.footer-share a:nth-child(1):hover {
+	background: url(../img/Flyme/footer-share-miner-01.png) no-repeat;
+	background-size: cover;
+}
+
+.footer-share a:nth-child(2) {
+	background: url(../img/Flyme/footer-share-min-02.png) no-repeat;
+	background-size: cover;
+}
+
+.footer-share a:nth-child(2):hover {
+	background: url(../img/Flyme/footer-share-miner-02.png) no-repeat;
+	background-size: cover;
+}
+
+.footer-share a:nth-child(3) {
+	background: url(../img/Flyme/footer-share-min-03.png) no-repeat;
+	background-size: cover;
+}
+
+.footer-share a:nth-child(3):hover {
+	background: url(../img/Flyme/footer-share-miner-03.png) no-repeat;
+	background-size: cover;
+}
+
+.footer-share a:nth-child(4) {
+	background: url(../img/Flyme/footer-share-min-04.png) no-repeat;
+	background-size: cover;
+}
+
+.footer-share a:nth-child(4):hover {
+	background: url(../img/Flyme/footer-share-miner-04.png) no-repeat;
+	background-size: cover;
+}
