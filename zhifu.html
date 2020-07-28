@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>确认订单-魅族商城</title>
+		<script src="js/jquery-3.5.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="lib/layer/layer.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/zhifu.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" type="text/css" href="css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="css/zhifu.css" />
+	</head>
+	<body>
+		<div class="header">
+			<div class="container clearfix">
+				<div class="lft fl">
+					<a href="index.html">
+						<img src="img/zhifu/image_01.png">
+					</a>
+				</div>
+
+				<ul class="clearfix liucheng">
+					<li>购物车</li>
+					<li>确认订单</li>
+					<li>在线支付</li>
+					<li>完成</li>
+				</ul>
+
+				<ul class="fr rgt clearfix" id="denglu">
+					<li>
+						<a href="myorder.html">我的订单</a>
+					</li>
+					<li class="denglu">
+						<a href="denglu.html">登录</a>
+					</li>
+					<li class="zhuce">
+						<a href="zhuce.html">注册</a>
+					</li>
+					<li class="dingdan">
+						<a href="myorder.html">
+							<span id="yonghu">用户61204...</span>的商城<span id="span">∨</span>
+						</a>
+						<dl>
+							<dd>
+								<a href="myorder.html">地址管理</a>
+							</dd>
+							<dd>
+								<a href="myorder.html">我的收藏</a>
+							</dd>
+							<dd>
+								<a href="myorder.html">我的回购金</a>
+							</dd>
+							<dd>
+								<a href="myorder.html">问题反馈</a>
+							</dd>
+							<dd>
+								<a href="#" class="tui">退出</a>
+							</dd>
+						</dl>
+
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="content">
+			<div class="container">
+				<div class="shouhuo">
+					<div class="top">
+						收货人信息
+					</div>
+					<ul class="clearfix" id="dizhi">
+						<!-- <li class="fl dizhi hover">
+							<div class="xinghao clearfix">
+								<div class="lft fl">张银祥</div>
+								<div class="rgt fr">17860786131</div>
+							</div>
+							<div>阿法法师法法鞍山市参数</div>
+							<div class="dui">√</div>
+							<div class="bianji">
+								<div class="shanchu fr">删除</div>
+								<div class="xiugai fr">修改</div>
+							</div>
+						</li> -->
+						<li class="fl zengjia">
+							<div class="box">
+								<div class="heng"></div>
+								<div class="shu"></div>
+							</div>
+							<div class="text">添加新地址</div>
+						</li>
+					</ul>
+				</div>
+
+				<div class="xinxi">
+					<div class="top">确认订单信息</div>
+					<div class="shangpin">
+						<table>
+							<thead>
+								<tr class="clearfix">
+									<th>
+										<div class="gongying">
+											供应商：<span>魅族</span>
+										</div>
+									</th>
+									<th>单价</th>
+									<th>数量</th>
+									<th>小计</th>
+									<th>配送方式</th>
+								</tr>
+							</thead>
+							
+							<tbody id="lo">
+								<tr class="clearfix shangpinxinxi">
+									<td>
+										<a href="#">
+											<img src="" id="tupian">
+										</a>
+										<a href="#">
+											<p class="mingzi">魅族 EP52 Lite 蓝牙耳机</p>
+											<p class="se"></p>
+										</a>
+									</td>
+									<td>
+										<p>￥<span class="danjia">129</span></p>
+									</td>
+									<td>
+										<span class="shuliang">1</span>
+									</td>
+									<td>
+										<p>￥<span class="jiage">129</span></p>
+									</td>
+									<td>
+										<p>快递配送：运费<span>￥</span><span class="yunfei">0</span></p>
+									</td>
+								</tr>
+							</tbody>
+							<tfoot>
+								<tr>
+									<td colspan="3">
+										<div>
+											<div>发票类型，电子发票</div>
+											<div>
+												<div></div>
+											</div>
+											<span id="xin">修改</span>
+										</div>
+										<div class="taitou">
+											发票抬头：<span id="fapiao">默认为收货人姓名</span>
+										</div>
+									</td>
+									<td colspan="3">
+										合计:<span>￥</span><span class="zongzhi">129</span>
+									</td>
+								</tr>
+								<tr>
+									<td colspan="6">
+										<span>备注：</span>
+										<textarea maxlength="45">
+
+										</textarea>
+									</td>
+								</tr>
+							</tfoot>
+						</table>
+					</div>
+				</div>
+
+
+				<div class="youhui">
+					<div class="text">使用优惠抵扣</div>
+					<ul>
+						<li>
+							<div>
+								<div class="huigou">-使用回购金</div>
+							</div>
+							<div class="huigoujin">
+								<div>
+									我的回购金余额 <span>￥</span><span>0</span><span>（使用说明：系统会根据您选购的商品自动计算出最大可以用回购金数量，以及可享受的魅族商城补贴，该补贴不可退。）</span>
+								</div>
+								<p><input type="radio" name="" id="shiyong" value="" />可使用￥<span>0</span>元回购金</p>
+								<p><input type="radio" name="" id="zanbu" value="" />暂不使用回购金</p>
+							</div>
+						</li>
+						<li>
+							<div>
+								<div class="lipin">-使用礼品卡</div>
+							</div>
+							<div>
+								<div class="lipinka">
+									<div>
+										<input type="text" id="" value="请输入账号" />
+										<input type="text" id="" value="请输入密码" />
+										<button type="button">添加并使用</button>
+										<div>
+											<div></div>
+											<span>使用规则</span>
+										</div>
+									</div>
+									<div>
+										该礼品卡为一次性全额消费卡，选购商品价格需大于礼品卡金额。一次只能消费一张礼卡，该卡一经扣款成功则无法退款。
+									</div>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+
+				<div class="zhifu clearfix">
+					<div class="top">
+						<div class="text">选择支付方式</div>
+						<div class="xuanze">
+							<div class="kuaijie clearfix">
+								<div class="text">快捷支付</div>
+								<ul class="clearfix">
+									<li>
+										<input type="radio" name="" id="zhifubao" value="" class="xuanzhong"/>
+										<div class="img1"></div>
+									</li>
+									<li>
+										<input type="radio" name="" id="weixin" value="" class="xuanzhong"/>
+										<div class="img2"></div>
+									</li>
+								</ul>
+							</div>
+
+							<div class="btm clearfix">
+								<div class="text">网上银行</div>
+								<ul class="clearfix">
+									<li>
+										<input type="radio" name="" id="zhongguo" value="" class="xuanzhong"/>
+										<div class="img1"></div>
+									</li>
+									<li>
+										<input type="radio" name="" id="jianshe" value="" class="xuanzhong"/>
+										<div class="img2"></div>
+									</li>
+									<li>
+										<input type="radio" name="" id="nongye" value="" class="xuanzhong"/>
+										<div class="img3"></div>
+									</li>
+									<li>
+										<input type="radio" name="" id="gongshang" value="" class="xuanzhong"/>
+										<div class="img4"></div>
+									</li>
+									<li>
+										<input type="radio" name="" id="jiaotong" value="" class="xuanzhong"/>
+										<div class="img5"></div>
+									</li>
+									<li>
+										<input type="radio" name="" id="zhaoshang" value="" class="xuanzhong"/>
+										<div class="img6"></div>
+									</li>
+									<li>
+										<input type="radio" name="" id="youzheng" value="" class="xuanzhong"/>
+										<div class="img7"></div>
+									</li>
+									<li>
+										<input type="radio" name="" id="xingye" value="" class="xuanzhong"/>
+										<div class="img8"></div>
+									</li>
+									<li>
+										<input type="radio" name="" id="shanghai" value="" class="xuanzhong"/>
+										<div class="img9"></div>
+									</li>
+								</ul>
+
+							</div>
+
+							<table class="yinhangka">
+								<thead>
+									<tr>
+										<th class="yinhang">银行名称</th>
+										<th class="xiane">限额</th>
+										<th class="zhichi">支持卡种</th>
+										<th class="kefu">客服电话</th>
+									</tr>
+								</thead>
+								<tbody class="huan">
+									<tr>
+										<td>
+											<div class="img"></div>
+										</td>
+										<td>储蓄卡：单笔限额50000元，每日限额100000元；信用卡：单笔限额300元，每日限额5000元。</td>
+										<td>信用卡/储蓄卡</td>
+										<td>95566</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+
+
+					<div class="jiesuan fr">
+						<div class="zong clearfix">
+							<div class="lft fl">
+								总金额：
+							</div>
+							<div class="rgt fr">
+								￥<span class="zongzhi">129</span>
+							</div>
+						</div>
+						<div class="yun clearfix">
+							<div class="lft fl" >
+								运费
+							</div>
+							<div class="rgt fr">
+								￥<span id="yunfei">0</span>
+							</div>
+						</div>
+						<div class="ying clearfix">
+							<div class="lft fl">
+								应付
+							</div>
+							<div class="rgt fr">
+								￥<span class="zongzhi tijiao" id="zong">129</span>
+							</div>
+						</div>
+						<button type="button" class="fr xiadan"><a id="zhuan">下单并支付</a></button>
+					</div>
+
+
+				</div>
+
+
+			</div>
+		</div>
+		
+		<div class="hui">
+			<div class="tanchu">
+				<div class="tou">
+					<div class="text">添加新地址</div>
+					<div class="guanbi"></div>
+				</div>
+				<div class="shanzi">
+					<div class="warp">
+						<div class="neirong">
+							<div class="neirong_nei">
+								<div class="clearfix">
+									<div class="xingming fl">
+										收货人姓名<span>*</span>
+									</div>
+									<div class="fl">
+										<input type="text" id="xingming" value="" placeholder="姓名长度不超过15个文字"/>
+									</div>
+									<div class="xingming fl">
+										收货人手机号<span>*</span>
+									</div>
+									<div class="fl">
+										<input type="text" id="shouji" value="" placeholder="请输入11位手机号"/>
+									</div>
+								</div>
+								<div class="clearfix">
+									<div class="xingming fl">
+										收货人地址<span>*</span>
+									</div>
+									<div class="xiala fl clearfix">
+										<div class="fl">
+											<input type="text" id="sheng" value="" placeholder="省份/直辖市"/>
+										</div>
+										<div class="fl">
+											<input type="text" id="shi" value="" placeholder="城市"/>
+										</div>
+										<div class="fl">
+											<input type="text" id="xian" value="" placeholder="区/县"/>
+										</div>
+										<div class="fl">
+											<input type="text" id="jie" value="" placeholder="乡镇/街道"/>
+										</div>
+									</div>
+								</div>
+								
+								<div class="clearfix">
+									<div class="xingming fl">
+										详细地址<span>*</span>
+									</div>
+									<div class="xiangxi fl">
+										<input type="text" id="xiangxi" value="" placeholder="请输入4-50个文字的详细地址，例如路名、门牌号"/>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="jiao">
+					<div class="queren">确认</div>
+					<div class="quxiao">取消</div>
+				</div>
+			</div>
+		</div>
+		
+		
+		<div class="fapiao">
+			<div class="fa">
+				<div class="top">
+					<div class="text">添加新地址</div>
+					<div class="guanbis"></div>
+				</div>
+				<div class="shanzi">
+					<div class="warp">
+						<div class="neirong">
+							<div class="neirong_nei">
+								<div class="clearfix">
+									<div class="xingming fl">
+										发票类型<span>*</span>
+									</div>
+									
+									<div class="xingming fl">
+										电子发票
+									</div>
+								</div>
+								<div class="clearfix">
+									<div class="xingming fl">
+										电子发票是税局认可的有效凭证，其法律效力、基本用途及使用规定同纸质发票。
+									</div>
+								</div>
+								
+								<div class="clearfix">
+									<div class="xingming fl">
+										发票抬头<span>*</span>
+									</div>
+									<div class="moren fl">
+										<select name="">
+											<option value="">个人</option>
+											<option value="">企业</option>
+											<option value="">机关事业单位</option>
+											<option value="">其他</option>
+										</select>
+										<input type="text" id="moren" value="" placeholder="默认收货人姓名"/>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="jiao">
+					<div class="querens">确认</div>
+					<div class="quxiaos">取消</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="footer-all"></div>
+	</body>
+</html>

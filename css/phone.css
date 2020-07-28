@@ -1,0 +1,256 @@
+@charset "utf-8";
+
+.banner {
+	width: 100%;
+	height: 400px;
+	overflow-x: hidden;
+	background-image: url(../img/phone/banner.jpg);
+	background-position: center;
+	overflow-x: hidden;
+}
+
+.title {
+	margin-top: 80px;
+}
+
+.title span {
+	display: inline-block;
+	font-size: 35px;
+	margin-bottom: 10px;
+}
+
+.main {
+	margin-top: 20px;
+	width: 100%;
+	background-color: #f4f4f4;
+	overflow: hidden;
+}
+
+.main .title {
+	margin-top: 87px;
+	margin-bottom: 25px;
+	font-size: 30px;
+	line-height: 1;
+}
+
+.main .title .menu {
+	float: right;
+	display: inline-block;
+	margin: 0;
+}
+
+.main .title .menu>div {
+	font-size: 18px;
+	font-weight: 300;
+	color: #343434;
+	line-height: 20px;
+	margin-right: 15px;
+	float: left;
+	width: 50px;
+	height: 20px;
+}
+.main .title .menu div:last-child{
+	width: 62px;
+	position: relative;
+}
+.main .title .menu div>span{
+	display: inline-block;
+}
+.main .title .menu div>span:first-child{
+	position: absolute;
+	top: -5px;
+}
+.main .title .menu div>span:last-child{
+	position: absolute;
+	top: 5px;
+}
+.main .title .menu div:hover {
+	color: #007AFF;
+	cursor: pointer;
+}
+
+.main .product {
+	width: 100%;
+}
+.main .product .phone {
+	width: 100%;
+	height: 100%;
+	display: inline-block;
+}
+.main .product .phone .item {
+	float: left;
+	width: 403px;
+	height: 560px;
+	margin-right: 15px;
+	background-color: #FFFFFF;
+	margin-bottom: 15px;
+	cursor: pointer;
+	
+}
+
+.main .product .item:nth-child(3), .main .product .item:nth-child(6) {
+	margin-right: 0px;
+}
+.main .product .item:nth-child(9), .main .product .item:nth-child(12) {
+	margin-right: 0px;
+}
+.main .product .item:nth-child(15), .main .product .item:nth-child(18) {
+	margin-right: 0px;
+}
+.main .product .item:nth-child(21){
+	margin-right: 0px;
+}
+.main .product .phone .item .photo {
+	width: 320px;
+	height: 320px;
+	margin: 0 auto;
+
+}
+
+.main .product .phone .item .photo>img {
+	display: none;
+}
+
+.main .product .phone .item .photo>img:first-child {
+	display: block;
+}
+
+.main .product .phone .item .anniu {
+	height: 27px;
+	width: 200px;
+	margin: 0 auto;
+	opacity: 0;
+}
+
+.main .product .item .anniu:hover {
+	opacity: 1;
+}
+
+.main .product .item .anniu>img {
+	margin-left: 23px;
+	float: left;
+
+}
+
+.main .product .item .anniu>img:hover {
+	width: 26px;
+	height: 26px;
+	border-radius: 50%;
+	border: 2px solid #666;
+}
+
+.main .product .item .title {
+	margin-top: 30px;
+	text-align: center;
+	font-size: 23px;
+	color: #333;
+}
+
+.main .product .item .text {
+	text-align: center;
+	padding-top: 15px;
+	font-size: 15px;
+}
+
+.main .product .item .price {
+	text-align: center;
+	padding-top: 15px;
+	font-size: 15px;
+	color: #c00;
+}
+
+.main .product .item .price>span {
+	font-size: 25px;
+}
+
+.compare {
+	background-color: #f4f4f4;
+	cursor: pointer;
+	overflow-x: hidden;
+}
+
+.compare .pic {
+	margin-top: 20px;
+	height: 248px;
+	width: 100%;
+	background-image: url(../img/phone/center.jpg);
+	background-position: center;
+}
+
+.recommend {
+	cursor: pointer;
+	height: 640px;
+	background-color: #F4F4F4;
+	width: 100%;
+	overflow-x: hidden;
+}
+
+.recommend .title {
+	margin-bottom: 20px;
+}
+
+.swiper-container {
+	width: 100%;
+	height: 430px;
+}
+
+.swiper-container .slider1 {
+	height: 100%;
+	background-color: #FFFFFF;
+}
+
+.swiper-container .slider2 {
+	height: 100%;
+	background-color: #FFFFFF;
+}
+
+.swiper-wrapper .list {
+	width: 310px;
+	height: 429px;
+
+}
+
+.swiper-wrapper .list .photo {
+	width: 310px;
+	height: 230px;
+	margin-top: 20px;
+}
+
+.swiper-wrapper .photo>img {
+	margin-left: 40px;
+}
+
+.swiper-wrapper .list .title {
+	font-size: 21px;
+	text-align: center;
+	color: #2b2b2b;
+	margin-top: 40px;
+}
+
+.swiper-wrapper .list .price {
+	margin-top: 8px;
+	font-size: 27px;
+	color: #c00;
+	text-align: center;
+}
+
+.swiper-wrapper .price>span {
+	font-size: 16px;
+
+}
+
+.swiper-container .slider2 {
+	width: 310px;
+	height: 100%;
+
+}
+.swiper-pagination {
+	width: 1240px;
+	height: 20px;
+	margin: 20px 10px;
+	
+}
+.swiper-pagination>span{
+	margin-left: 10px;
+}
+

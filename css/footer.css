@@ -1,0 +1,264 @@
+@charset "utf-8";
+
+.footer {
+	background-color: white
+}
+
+.footer-link {
+	width: 100%;
+	height: 100px;
+	border-bottom: 1px #F1F1F1 solid;
+	padding-top: 40px;
+}
+
+.footer-link ul {
+	width: 1000px;
+}
+
+.footer-link ul li {
+	width: 150px;
+	float: left;
+}
+
+.footer-link ul li a {
+	text-align: center;
+	width: 150px;
+	display: block;
+	overflow: hidden;
+	line-height: 30px;
+}
+
+.footer-link ul li a span {
+	color: #999;
+}
+
+.footer-link ul li a img {
+	display: block;
+	margin: 0 auto;
+}
+
+.footer-hotline {
+	float: right;
+	text-align: right;
+}
+
+.footer-hotline span {
+	display: block;
+	color: #999;
+	line-height: 20px;
+}
+
+.footer-hotline span:nth-child(2) {
+	color: #008cff;
+	font-size: 25px;
+	font-weight: 400;
+	line-height: 30px;
+}
+
+.footer-hotline a {
+	width: 88px;
+	height: 30px;
+	padding: 0 16px;
+	text-align: center;
+	line-height: 30px;
+	color: #fff;
+	border-radius: 20px;
+	margin-top: 3px;
+	display: inline-block;
+	font-size: 14px;
+	background: #008cff;
+}
+
+.footer-message {
+	padding-top: 30px;
+	width: 1000px;
+	height: 20px;
+}
+
+.footer-message ul {
+	width: 1000px;
+	height: 20px;
+}
+
+.footer-message ul li {
+	float: left;
+	padding-right: 15px;
+	border-right: 1px solid #d6d6d6;
+	height: 18px;
+	margin-right: 15px;
+}
+
+.footer-message ul li:last-child {
+	border-right: none;
+}
+
+.footer-message ul li a {
+	color: #999;
+	display: block;
+	line-height: 18px;
+}
+
+.footer-message ul li a:hover {
+	color: #008cff;
+}
+
+.footer-message ul li:last-child span {
+	margin-right: 5px;
+	display: block;
+	width: 18px;
+	height: 18px;
+	background: url(../img/footer/footerXB.png) no-repeat 0 0;
+	background-size: cover;
+	float: left;
+}
+
+.language-select {
+	width: 300px;
+	position: relative;
+	top: -188px;
+	left: -10px;
+	display: none;
+	overflow: hidden;
+	width: 115px;
+	background: #fff;
+	border: 1px solid #f1f1f1;
+	z-index: 999;
+}
+
+.language-select ul {
+	width: 117px;
+	float: none;
+}
+
+.language-select ul li {
+	border: none;
+	float: none;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	padding-right: 0;
+	height: 25px;
+	margin-right: 0;
+}
+
+.language-select ul li:nth-child(2) span {
+	background: url(../img/footer/footerXB.png) no-repeat;
+	background-position: 0 -17px;
+	background-size: cover;
+}
+
+.language-select ul li:nth-child(3) span {
+	background: url(../img/footer/En.png) no-repeat;
+	background-position: 0 0;
+	background-size: cover;
+}
+
+.language-select ul li:nth-child(4) span {
+	background: url(../img/footer/footerXB.png) no-repeat;
+	background-position: 0 -70px;
+	background-size: cover;
+}
+
+.language-select ul li:nth-child(5) span {
+	background: url(../img/footer/footerXB.png) no-repeat;
+	background-position: 0 -300px;
+	background-size: cover;
+}
+
+.footer-messager {
+	margin-top: 10px;
+	padding-bottom: 30px;
+}
+
+.footer-messager img {
+	display: inline-block;
+	margin-bottom: -3px;
+}
+
+.footer-messager a {
+	color: #999999;
+}
+
+.footer-messager a:hover {
+	color: #008cff;
+}
+
+.footer-messager .fivea {
+	display: inline-block;
+	width: 16px;
+	height: 18px;
+	background: url(../img/footer/footer-min-01.png) no-repeat;
+	margin-bottom: -3px;
+}
+
+.footer-messager .fivea:hover {
+	background: url(../img/footer/footer-min-hide-01.png) no-repeat;
+}
+
+.footer-messager .sixa {
+	display: inline-block;
+	width: 16px;
+	height: 18px;
+	background: url(../img/footer/footer-min-02.png) no-repeat;
+	margin-bottom: -3px;
+}
+
+.footer-messager .sixa:hover {
+	background: url(../img/footer/footer-min-hide-02.png) no-repeat;
+}
+
+.footer-messager .sevena {
+	display: inline-block;
+	width: 16px;
+	height: 18px;
+	background: url(../img/footer/footer-min-03.png) no-repeat;
+	margin-bottom: -3px;
+}
+
+.footer-messager .sevena:hover {
+	background: url(../img/footer/footer-min-hide-03.png) no-repeat;
+}
+
+.footer-share {
+	float: right;
+}
+
+.footer-share a{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.footer-share a:nth-child(1){
+	background: url(../img/footer/footer-share-min-01.png) no-repeat;
+	background-size: cover;
+}
+.footer-share a:nth-child(1):hover{
+	background: url(../img/footer/footer-share-miner-01.png) no-repeat;
+	background-size: cover;
+}
+.footer-share a:nth-child(2){
+	background: url(../img/footer/footer-share-min-02.png) no-repeat;
+	background-size: cover;
+}
+.footer-share a:nth-child(2):hover{
+	background: url(../img/footer/footer-share-miner-02.png) no-repeat;
+	background-size: cover;
+}
+.footer-share a:nth-child(3){
+	background: url(../img/footer/footer-share-min-03.png) no-repeat;
+	background-size: cover;
+}
+.footer-share a:nth-child(3):hover{
+	background: url(../img/footer/footer-share-miner-03.png) no-repeat;
+	background-size: cover;
+}
+.footer-share a:nth-child(4){
+	background: url(../img/footer/footer-share-min-04.png) no-repeat;
+	background-size: cover;
+}
+.footer-share a:nth-child(4):hover{
+	background: url(../img/footer/footer-share-miner-04.png) no-repeat;
+	background-size: cover;
+}
